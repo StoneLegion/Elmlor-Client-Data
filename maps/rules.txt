@@ -1,0 +1,12 @@
+########################################################################
+# Cave
+########################################################################
+../rules/rule001.tmx
+../rules/rulecave000.tmx
+../rules/rulecave001.tmx
+../rules/rulecave002.tmx
+../rules/rulecave003.tmx
+../rules/rulecave004.tmx
+../rules/rulecave005.tmx
+../rules/rulecave006.tmx
+../rules/rulecave007.tmx

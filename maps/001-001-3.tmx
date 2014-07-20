@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Cave"/>
+ </properties>
+ <tileset firstgid="1" name="ruleset" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/ruleset.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="mountains" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/mountains.png" width="416" height="288"/>
+ </tileset>
+ <tileset firstgid="134" name="dirt2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/dirt2.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="152" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <layer name="setCave" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEOgzAQREHT5/+/Nw0NTZAdW7fgKabkBPskjtbaAQAAAAAAAADAT59T9Xtw7bGqid5jLXp263lGj/vN78xoOHJ7BzN7jNzSZM6Gsxtosn5TPd7TY+cm1bvr8YweO3ap3lqP5/So3kYPPao31yK7SfUWSbTIo0cWPfJokkWPLHpk0SPPqo31qO3Rc7/6m9P592TRI4/d82iRR4s8WmTRI4seWfQAAAAAAAAAAAAAAAAAAAAAAAD+9QVX7Uji
+  </data>
+ </layer>
+ <layer name="CaveGround" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1MsKwkAURMH8/yqfLLiR60TNxIS+kCqYXV70EZcFAAAAAAAAAOhsTX8Azwbvh4ytFnuazDTTer8jPfbes364ftm49k6+7ffrzD5r9r139E+P993OeJYevc8dpTfXo0pvrkmV3luPKr23Li/pjfWo0hvrUKW31qNKb63FKL25DtvSDbQYpVvoUaVb6DFK99CkSrfQo0q30KNKt9BjdNXGehxz9e9di3n+e3rRox+796NFP1r0o0UvevSiRy96AAAAAAAAAAAAAAAAAAAAAAAAZ3gAMvTwwA==
+  </data>
+ </layer>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer name="Ground2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer name="CaveWall" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2M1S2zAUBlA9BN2CyRZoty2wDbz/GxXN1IMi/JdYjkV17szZhQDfl2vZuQsh3AEAAAAAAADQvMOHx3/uK/h7Wvfrw59E6U70fV5Wb5klnaQZz2Wd9v2zgv95b0PZ9WJGz+Fzjgs6OYTTfRrLuv+9ed+t70l+PUrFfN7D6fSdDH2WD8nPDcm7zvv+Hba7Ln4XrxP55V3kndyH0/0a6zDPOu0sfe0xnHdd/B91I5nPTZ7vVBdx0qynXpe+tsXz5MdELlOT5zuX8aXvb0fOy6xkB/nEHWxxR7oC2W0x/Y60dM8Vz+OnEuFtNP051cqexPvd9J6ztul35CXsn9U1xPvdLc+AUnMT9s/qGrpCeW01t2H/jPTxOa3sRe/S549rTGtd1NpJqz3U2Etr58WcblWa6+chtPPst8TeO9LqdyRTujWBrpz4/NfKs9936COOM0QfNdv7DNHHV92aQAemf6ZY0rXnj69K7shQvmPvr4tx3VzQC8a1p5wSO+Lzvk8ncq+nE13U04ku9tNlXTir9YE+apWfIc4OAAAAAAAAAAAAAAAAAAAAAADgEn8BGfdwVA==
+  </data>
+ </layer>
+ <layer name="CaveWall2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEKhCAQBmDfZ+ku3WPf/42WOQgiasUGefi+U+gUMT8jpgQAAAAAAAAArOzz9g+Qtuo5J5m8KbLYm7UrmWwn+6NaWc9FFt/Oep6808swtL0uOdS1eVDLuV7PRlmENsNSV+d9VLUyuaf0rD5vRlmEY7I3+j7XRX+jZ7MM/mVG1mJG1hIzaEbWYkbWcvceAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPOcH2IwJYQ==
+  </data>
+ </layer>
+ <layer name="OverWall" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2TEKwCAMBVBvLXj6Dl2KoLRiG7Tv7QaH+COaEgAAAAAAAAAAUCvRG4CGO72ZB2v31jkTwMpGc/GvZD6cZmeHLAKgdc8yIwAAYngHe+bNP6qva8IOZBi7u/a4WQAAAAAAAAAAAAAAAAAAAAAAAAAAAEQ6AAhxCHo=
+  </data>
+ </layer>
+ <layer name="CaveOver" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt10sKgDAMBUCvUL3/XRXEjfjDX1Kdge5bX9OYpgEAAAAAAAAAAACoXxe9AQDg08qw2uhNQEIlegNBss0f3qjx/Bly+WtNrMmQCWSmRgA46+4eMs0UelO8+UyxlYv5Y90dd3nr+7YLC2pytEam/uC+P28vE2/++/TffOaZyAKAo/zLAgAAAAAAAAAAAAAAAAAAAAAAV/VXaQMI
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1DESgjAURdHsfwWyWxsLtRATEv5TTnEaZ2DgXeLWWtsAAAAAAAAAAPjo9lD9HLz2WNVE67EWPU16rnH+vtv9fc/efZ+vm937n+216Nls5F6azNlwdgNN1m860kCPsb3O6nNF1edCj/0eszsduV/1PtUt0lRvpMf1OuiRaXSnnt+1+N0zUr1FEi3y6JFFjzyaZDljcz3mNlnRrfqdU/m/yrNq473zVv3eqVZ/787G+iZbs21SD997RpPqZ7waLfJokUeLLHpk0SOLHgAAAAAAAAAAAAAAAAAAAAAAwFF35jVW6Q==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object name="Maggot" type="spawn" x="894" y="616" width="1370" height="886">
+   <properties>
+    <property name="eA_death" value="60000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="To Spawn" type="warp" x="1255" y="1655" width="152" height="63">
+   <properties>
+    <property name="dest_map" value="001-001-1"/>
+    <property name="dest_tile_x" value="30"/>
+    <property name="dest_tile_y" value="19"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
