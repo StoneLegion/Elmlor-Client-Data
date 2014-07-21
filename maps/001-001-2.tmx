@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="240" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Houses"/>
+ </properties>
+ <tileset firstgid="1" name="inside" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inside.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="101" name="house_inside_1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/house_inside_1.png" width="512" height="448"/>
+ </tileset>
+ <tileset firstgid="325" name="cabinets" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cabinets.png" width="192" height="416"/>
+ </tileset>
+ <tileset firstgid="403" name="country" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/country.png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="423" name="farming_fishing" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/farming_fishing.png" width="640" height="640"/>
+ </tileset>
+ <tileset firstgid="823" name="barrel" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/barrel.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="831" name="mountains_new" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/mountains_new.png" width="480" height="288"/>
+ </tileset>
+ <tileset firstgid="966" name="shrine" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/shrine.png" width="224" height="512"/>
+ </tileset>
+ <tileset firstgid="1078" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <layer name="Ground" width="240" height="240">
+  <data encoding="base64" compression="zlib">
+   eJzt07EJACAQBMEHq7H/Dr4yGxA0k5MJJt9ke1Q1AAAAAAAAAAAAAAAAAAAAAAAAhJp19roR2PMv5PIv5PIv5PIv5PIv5PIv/Mm7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAjQXp7Qgk
+  </data>
+ </layer>
+ <layer name="Ground2" width="240" height="240">
+  <data encoding="base64" compression="zlib">
+   eJzt0yEOgDAQRcEm7W3quP9ROAHB4JBQhSJFELIlM8mq/falBAAAAAAAAAAAAAAAAAAAAERSS0pL7h8Qz3T2u+X+AfG0fvfcPyCe1u8bG+B7+oVx6RfGpV8Yl35hXK3N+cEGiKe1ud78ark2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwD8d++EfQw==
+  </data>
+ </layer>
+ <layer name="Ground3" width="240" height="240">
+  <data encoding="base64" compression="zlib">
+   eJzt0zENAEAIwEAG3PyGf3F4YPkQ7hR0aQQAAAAAAAAAAAAAAAAAAACwzcvfBcBU+RfW8i8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADADQ1RGQCc
+  </data>
+ </layer>
+ <layer name="Fringe" width="240" height="240">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T+3sARQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN4QtAAE=
+  </data>
+ </layer>
+ <layer name="Over1" width="240" height="240">
+  <data encoding="base64" compression="zlib">
+   eJzt0zsOQUEYBeCZhC1YiUWoVCqVyk5UKlvDCjw24NH7E6PkmsYg35eczM2dKU5zUgIAAAAAAAAAAAAAAAAAAAC+3bF1AaDKKKc0zffva/m3btYGqDGO7c7Kfvvl3EU2kW2rUkCnRex1EpmX3Q7KeYrsI4dWxYBOy/z87hy5fKwJUGv1Yr8AAADwy4a99/J4CwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPynG0i/EA8=
+  </data>
+ </layer>
+ <layer name="Over2" width="240" height="240">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEKgDAAA8AUfE77Fye/1yf0i+rgJg4uRbmDkDVLEgAAAAAAAAAAAAAAAAAAAAAAAPiutSR99gjgle3475g9AgAAAABu1CVpDzldDQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPzPDi3aA68=
+  </data>
+ </layer>
+ <layer name="Over3" width="240" height="240">
+  <data encoding="base64" compression="zlib">
+   eJzt06ERACAQA8GfgW5w9N8SjgJegAcUZtfExlwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN1pdO8rfH8C7vvud+gUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4SxvkCTQ==
+  </data>
+ </layer>
+ <layer name="Collision" width="240" height="240">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEKwDAMBEEX+ZP//7NU7myjKuLCCAZUXrPzGWMCAAAAAAAAAAAAAAAAAAAAAABAuHXr794D1JyuexdwV7nujcCefiGXfiGbfiGXfuF/tAu59AsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfOkFjCTRjA==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object name="Outside Oldmans House" type="warp" x="864" y="864" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="001-001-1"/>
+    <property name="dest_tile_x" value="97"/>
+    <property name="dest_tile_y" value="57"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
