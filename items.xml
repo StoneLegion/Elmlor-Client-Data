@@ -9837,4 +9837,15 @@
         <sprite gender="male">equipment/head/phylactery-male.xml</sprite>
         <sprite gender="female">equipment/head/phylactery-female.xml</sprite>
     </item>
+    <item id="15000"
+        image="equipment/chest/cottonshirt.png|W:#95887F,E0D1C9"
+        name="Ragged Shirt"
+        description="This shirt is too worn-out to give any protection."
+        effect="M. Attack -2"
+        type="equip-torso"
+        weight="13"
+        defense="0">
+        <sprite gender="male">equipment/chest/cotton-male.xml|#95887F,E0D1C9</sprite>
+        <sprite gender="female">equipment/chest/cotton-female.xml|#95887F,E0D1C9</sprite>
+    </item>
 </items>
