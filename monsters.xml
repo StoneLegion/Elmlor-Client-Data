@@ -696,4 +696,11 @@
     <sprite>monsters/mana-bug.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
     <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
   </monster>
+  <monster id="2000" name="Mother Maggot" targetCursor="large">
+    <sprite>monsters/maggot-giant.xml|</sprite>
+    <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+    <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+    <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+    <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+  </monster>
 </monsters>

@@ -9848,4 +9848,11 @@
         <sprite gender="male">equipment/chest/cotton-male.xml|#95887F,E0D1C9</sprite>
         <sprite gender="female">equipment/chest/cotton-female.xml|#95887F,E0D1C9</sprite>
     </item>
+	<item id="15001"
+        image="generic/maggotslime.png"
+        name="Maggot Mother Slime"
+        description="Slimy maggot Mother slime."
+        type="generic"
+        weight="8000">
+    </item>
 </items>
